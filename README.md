@@ -17,7 +17,7 @@ Jalankan perintah berikut untuk menggunakan alat ini:
 ```sh
 git-auto-commit
 ```
-
+Alat ini menggunakan API dari Groq.
 Alat ini akan menghasilkan 5 pesan commit berdasarkan perubahan kode yang ada.
 
 ## Kontribusi
