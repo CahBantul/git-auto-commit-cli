@@ -1,52 +1,51 @@
-# Git Auto Commit CLI
+# Git Auto Commit CLI  
 
-Git Auto Commit CLI adalah alat sederhana untuk membantu mengotomatisasi commit Git dengan pesan yang dihasilkan secara otomatis.
+Git Auto Commit CLI is a simple tool to automate Git commits with automatically generated messages.  
 
-## Instalasi
+## Installation  
 
-Gunakan perintah berikut untuk menginstal package ini secara global:
+Use the following command to install this package globally:  
 
 ```sh
 npm install -g git-auto-commit-cli
-```
+```  
 
-## Penggunaan
+## Usage  
 
-Jalankan perintah berikut untuk menggunakan alat ini:
+Run the following command to use this tool:  
 
 ```sh
 git-auto-commit
-```
-Alat ini menggunakan API dari Groq.
-Alat ini akan menghasilkan 5 pesan commit berdasarkan perubahan kode yang ada.
+```  
+This tool uses the Groq API.  
+It will generate five commit messages based on the code changes.  
 
-## Kontribusi
+## Contribution  
 
-Kami menyambut kontribusi dari semua developer! Ikuti langkah-langkah berikut untuk berkontribusi:
+We welcome contributions from all developers! Follow these steps to contribute:  
 
-1. **Fork Repository**
-2. **Clone Repository**:
+1. **Fork the Repository**  
+2. **Clone the Repository**:  
    ```sh
    git clone https://github.com/CahBantul/git-auto-commit-cli.git
-   ```
-3. **Buat Branch Baru**:
+   ```  
+3. **Create a New Branch**:  
    ```sh
-   git checkout -b nama-branch
-   ```
-4. **Lakukan Perubahan & Commit**:
+   git checkout -b branch-name
+   ```  
+4. **Make Changes & Commit**:  
    ```sh
-   git commit -am "Deskripsi perubahan"
-   ```
-5. **Push ke Remote**:
+   git commit -am "Description of changes"
+   ```  
+5. **Push to Remote**:  
    ```sh
-   git push origin nama-branch
-   ```
-6. **Buat Pull Request** di GitHub.
+   git push origin branch-name
+   ```  
+6. **Create a Pull Request** on GitHub.  
 
-## Lisensi
+## License  
 
-Project ini dirilis di bawah lisensi ISC.
+This project is released under the ISC license.  
 
----
-Dibuat oleh Fardan Nozami Ajitama 🚀
-
+---  
+Created by Fardan Nozami Ajitama 🚀  
