@@ -17,8 +17,20 @@ Run the following command to use this tool:
 ```sh
 git-auto-commit
 ```  
-This tool uses the Groq API.  
-It will generate five commit messages based on the code changes.  
+
+To generate commit messages in English, use:  
+
+```sh
+git-auto-commit --lang=en
+```  
+
+### API Key Requirement  
+
+This tool requires a **Groq API Key** to function.  
+The API key will be requested via a prompt when the tool is initialized for the first time.  
+Your key will be stored securely for future use.  
+
+This tool uses the Groq API and will generate five commit messages based on the code changes.  
 
 ## Contribution  
 
@@ -48,4 +60,4 @@ We welcome contributions from all developers! Follow these steps to contribute:
 This project is released under the ISC license.  
 
 ---  
-Created by Fardan Nozami Ajitama 🚀  
+Created by Fardan Nozami Ajitama
