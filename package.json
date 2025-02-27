@@ -1,6 +1,6 @@
 {
     "name": "git-auto-commit-cli",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "CLI untuk auto commit dengan bantuan Groq API",
     "main": "dist/index.js",
     "bin": {
