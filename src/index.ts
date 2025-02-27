@@ -24,7 +24,7 @@ const systemMessages = {
         You are an expert in analyzing git diff changes.
 
         Follow these rules for commit messages:
-        1. Format: <type>[scope]([optional context]): <full description>
+        1. Format: <type>: <full description>
         2. Use Conventional Commit rules with an appropriate scope.
         3. Commit messages should be at least 90 characters and at most 110 characters.
         4. Messages must be technical, referencing relevant files or functions.
@@ -33,7 +33,7 @@ const systemMessages = {
         Anda adalah ahli dalam menganalisis perubahan pada git diff.
 
         Ikuti aturan berikut untuk pesan commit:
-        1. Format: <type>[scope]([konteks opsional]): <deskripsi lengkap>
+        1. Format: <type>: <deskripsi lengkap>
         2. Gunakan aturan Conventional Commits dengan jenis scope yang sesuai.
         3. Pesan commit harus memiliki minimal 90 karakter dan maksimal 110 karakter.
         4. Pesan harus lebih teknis, mencantumkan nama file atau fungsi yang relevan.
